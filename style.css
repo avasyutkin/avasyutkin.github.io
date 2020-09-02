@@ -42,7 +42,8 @@
 
 .header-text {
     display: inline-block;
-    margin-top: -4.1vh;
+    /*margin-top: -4.1vh;*/
+    margin-top: -31px;
     font-size: 12px;
     font-family: Druk Text Wide Cyr Medium;
     margin-left: 25vw;
@@ -51,14 +52,16 @@
 
 .header {
     position: sticky;
-    /*top: -55px; 
-    height: 135px;*/
-    top: -7vh;
+    top: -55px; 
+    /*height: 132px;
+    /*top: -7vh;*/
+    background-color: white;
 }
 
 .logo-black {
     height: 26px;
     display: inline-block;
+    background-color: white;
 }
 
 .header-vertical-line {
@@ -71,17 +74,21 @@
 
 .header-get-direction {
     float: left;
+    background-color: white;
 }
 
 .header-contacts {
     float: right;
     right: 0;
+    background-color: white;
 }
 
 .header-hr {
     height: 0.1px;
-    margin-top: 6vh;
+    /*margin-top: 6vh;*/
+    margin-top: 45px;
     background-color: #E6E7E8;
+    margin-bottom: -6px;
 }
 
 .mini-about {
@@ -200,17 +207,50 @@
 }
 
 .about-skewd-text {
-    display: inline-block;
     font-family: Druk Text Wide Cyr Medium;
     font-size: 18px;
-    float: right;
-    margin-right: 55px;
-    margin-bottom: 0px;
+    float: left;
+    margin-top: -58px;
+    margin-left: 750px;
+    margin-bottom: 0px;    
 }
 
 .about-skewd-text-details {
     font-size: 12px;
     color: #808285;
-    margin-top: 15px;
+    margin-top: 14px;
     text-decoration: underline;
+}
+
+.img-gallery {
+    width: 300px;
+    float: right;
+}
+
+.gallery {
+    width: 67.6vw;
+    margin-top: 130px;
+    margin-left: 25vw; 
+}
+
+.gallery-text {
+    font-family: Druk Text Wide Cyr Medium;
+    font-size: 18px;
+    float: right;
+    margin-top: -7px;
+    margin-right: 72px;
+}
+
+.gallery-text-details {
+    font-size: 12px;
+    color: #808285;
+    margin-top: 14px;
+    text-decoration: underline;
+}
+
+.sunday-roast {
+    clear:both;
+    width: 67.6vw;
+    margin-top: 130px;
+    margin-left: 25vw; 
 }
