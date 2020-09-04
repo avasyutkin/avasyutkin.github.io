@@ -19,7 +19,6 @@
 .logo {
     height: 37px;
     margin-top: 12vh;
-    margin-left: 7vw;
 }
 
 .web-design {
@@ -30,13 +29,26 @@
     font-family: Druk Text Wide Cyr Medium;
 }
 
-.text-restaurant {
+/*.text-restaurant {
     font-size: 13px;
     color: white;
     font-family: Druk Text Wide Cyr Medium;
     display: inline-block;
     right: 6.2vw;
     position: absolute;
+    margin-top: 12vh;
+}*/
+
+.logo-and-restaurant {
+    width: 85.6vw;
+    margin-left: 7vw;
+}
+
+.text-restaurant {
+    font-size: 13px;
+    color: white;
+    font-family: Druk Text Wide Cyr Medium;
+    float: right;
     margin-top: 12vh;
 }
 
@@ -62,6 +74,7 @@
     height: 26px;
     display: inline-block;
     background-color: white;
+    margin-left: 7vw;
 }
 
 .header-vertical-line {
@@ -99,13 +112,17 @@
     margin-left: 25vw;
 }
 
+.round-div {
+    width: 67.6vw;
+    margin-left: 25vw; 
+}
+
 .round-book {
     width: 8em;
     height: 8em;
     border-radius: 50%;
     background: #ff3b01;
     float: right;
-    margin-right: 6.2vw;
     border: 0px;
 }
 
@@ -227,9 +244,9 @@
     float: right;
 }
 
-.gallery {
+.gallery-sundayroast {
     width: 67.6vw;
-    margin-top: 130px;
+    margin-top: 190px;
     margin-left: 25vw; 
 }
 
@@ -248,9 +265,165 @@
     text-decoration: underline;
 }
 
-.sunday-roast {
-    clear:both;
-    width: 67.6vw;
-    margin-top: 130px;
-    margin-left: 25vw; 
+.sunday-roast-img {
+    margin-top: 250px;
 }
+
+.sunday-rost-text {
+    font-family: Druk Text Wide Cyr Medium;
+    font-size: 18px;
+    float: left;
+    margin-top: -58px;
+    margin-left: 351px;
+    margin-bottom: 0px;
+    clear: both;
+}
+
+.sunday-rost-text-details {
+    font-size: 12px;
+    color: #808285;
+    margin-top: 14px;
+    text-decoration: underline;
+}
+
+.award-winners {
+    width: 67.6vw;
+    margin-top: 190px;
+    margin-left: 25vw; 
+    float: left;
+}
+
+.award-winners-img {
+    float: right;
+}
+
+.award-winners-text {
+    font-family: Druk Text Wide Cyr Medium;
+    font-size: 18px;
+    float: right;
+    margin-top: 351px;
+    margin-right: 72px;
+}
+
+.award-winners-text-details {
+    font-size: 12px;
+    color: #808285;
+    margin-top: 14px;
+    text-decoration: underline;
+}
+
+.orange-rec-div {
+    width: 67.6vw;
+    margin-left: 25vw; 
+    clear: both;
+    float: left;
+}
+
+.orange-rectangle {
+    border: 10px solid transparent;
+    border-top: 10px solid #ff3b01; 
+    border-right: 10px solid #ff3b01;
+    margin-top: 15px;
+    float: right;
+}
+
+.footer {  
+    margin-top: 770px;
+    width: 85.6vw;
+    margin-left: 7vw;
+}
+
+.footer-hr {
+    height: 0.1px;
+    width: 85.6vw;
+    margin-top: 35px;
+    background-color: #E6E7E8;
+}
+
+.logo-footer {
+    margin-top: 45px;
+    float: left;
+    margin-left: 0px;
+}
+
+.footer-time {
+    float: right;
+    margin-top: 45px;
+    border: 2px dashed #212529;
+    height: 160px;
+    width: 185px;
+    line-height: 125%;
+}
+
+.footer-time-day {
+    font-family: Druk Text Wide Cyr Medium;
+    font-size: 20px;
+    color: #ff3b01;
+    margin-right: 9px;
+    text-align: right;
+    margin-top: 65px;
+}
+
+.footer-time-time {
+    font-family: Druk Text Wide Cyr Medium;
+    font-size: 20px;
+    color: #212529;
+    text-align: right;
+    margin-right: 9px;
+}
+
+.black-rec-div {
+    width: 85.6vw;
+    clear: both;
+    float: left;
+}
+
+.black-rectangle {
+    border: 10px solid transparent;
+    border-top: 10px solid #212529; 
+    border-right: 10px solid #212529;
+    margin-top: -2px;
+    float: right;
+}
+
+.footer-list {
+    clear: both;
+    font-family: Druk Text Wide Cyr Medium;
+    font-size: 36px;
+    color: #212529;
+    line-height: 105%;
+    margin-top: 300px;
+}
+
+.footer-end {
+    font-family: Druk Text Wide Cyr Medium;
+    font-size: 11px;
+    margin-bottom: 22px;
+}
+
+.footer-rights {
+    display: inline-block;  
+}
+
+.footer-contact {
+    display: inline-block; 
+    text-align: right;
+    float: right;
+    margin-left: 90px;
+}
+
+.footer-contact-1 {
+    color: #808285;
+}
+
+.footer-contact-2 {
+    margin-top: 5px;
+}
+
+.footer-numphone {
+    display: inline-block; 
+    text-align: right;
+    float: right;
+}
+
+.btn:focus{outline:0}
