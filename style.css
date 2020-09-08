@@ -102,6 +102,48 @@
     margin-top: 45px;
     background-color: #E6E7E8;
     margin-bottom: -6px;
+    width: 67.6vw;
+}
+
+.header-hr-2 {
+    margin-left: 25vw;
+}
+
+.header-btn-menu {
+    float: right;
+    margin-left: 80px;
+    border: 0px;
+    background: white;
+}
+
+.header-btn-menu:active, 
+.header-btn-menu:focus {
+    outline: none;
+}
+
+.hr-btn-header-1 {
+    width: 32px;
+    margin-top: 7px;
+}
+
+.hr-btn-header-2 {
+    width: 32px;
+    margin-top: -10px;
+}
+
+.header-menu-hr {
+    display: none;
+}
+
+.header-menu {
+    font-family: Druk Text Wide Cyr Medium;
+    font-size: 36px;
+    color: #212529;
+    line-height: 105%;
+    margin-bottom: 40px;
+    margin-top: 32px;
+    width: 67.6vw;
+    margin-left: 25vw;
 }
 
 .mini-about {
@@ -426,4 +468,3 @@
     float: right;
 }
 
-.btn:focus{outline:0}
